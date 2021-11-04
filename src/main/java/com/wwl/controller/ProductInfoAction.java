@@ -5,7 +5,6 @@ import com.wwl.pojo.ProductInfo;
 import com.wwl.pojo.vo.ProductInfoVo;
 import com.wwl.service.ProductInfoService;
 import com.wwl.utils.FileNameUtil;
-import javafx.beans.binding.ObjectExpression;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +16,6 @@ import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.io.IOException;
 import java.util.Date;
-import java.util.List;
 
 @Controller
 @RequestMapping("/prod")
